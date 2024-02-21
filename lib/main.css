@@ -1,0 +1,74 @@
+body{
+    font-family: roboto, sans-serif;
+}
+
+#sobre img{
+    width: 100%;
+}
+
+.navbar{
+    background-color: rgb(159, 203, 245);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: rgb(159, 203, 245);
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color:#fff;
+}
+
+.carousel-item img{
+    height:500px;
+}
+
+.navbar-brand{
+    font-family: Pacifico, cursive;
+    color:#fff;
+    font-size: 40px;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+
+
+#sobre, #sabores{
+    background-color: rgb(201, 228, 253);
+}
+
+.text-colored{
+color:rgb(103, 152, 197);
+}
+
+
+#contato button, .nav-cardapio .nav-link.active{
+    background-color: rgb(103, 152, 197);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color:rgb(103, 152, 197);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width:767px){
+    .carousel-item img{
+        height:280px;
+    }
+}
